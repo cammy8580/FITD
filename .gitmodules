@@ -1,15 +1,15 @@
-[submodule "ThirdParty/SDL"]
+[submodule "SDL"]
 	path = ThirdParty/SDL
 	url = https://github.com/libsdl-org/SDL.git
-[submodule "ThirdParty/imgui"]
+[submodule "imgui"]
 	path = ThirdParty/imgui
 	url = https://github.com/ocornut/imgui
-[submodule "ThirdParty/soloud"]
+[submodule "soloud"]
 	path = ThirdParty/soloud.cmake/soloud
 	url = https://github.com/jarikomppa/soloud.git
-[submodule "ThirdParty/bgfx.cmake"]
+[submodule "bgfx.cmake"]
 	path = ThirdParty/bgfx.cmake
 	url = https://github.com/bkaradzic/bgfx.cmake.git
-[submodule "ThirdParty/zlib"]
+[submodule "zlib"]
 	path = ThirdParty/zlib
 	url = https://github.com/madler/zlib.git
