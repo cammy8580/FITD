@@ -5,6 +5,31 @@ Not many people were exactly knowledgeable on how to compile it, especially sinc
 My main goal is to poke around and make it a bit neater, and potentially provide some insight to FITD itself.
 For example, did you know the GOG version of AITD has an ancient version of FITD in the files? Don't believe me? See for yourself.
 
+#Compiling
+
+I've done my best to make some minor changes to the .gitmodules page so that way the project can properly clone itself. It's frustrating, but I think it's better that it's done this way rather than the way yaz0r listed before.
+
+1. Clone the repo
+
+``git clone https://GitHub.com/cammy8580/FITD.git --recurse-submodules``
+
+it is VERY IMPORTANT that you add the last argument to the commit, otherwise building the project will give you errors regardless.
+
+2. Use CMake
+
+Using the GUI, you should be able to build the repo you just cloned. Point the source code directory to the new folder, and then set the build directory to wherever you desire.
+
+Click Config. It may come up with a list of configurables, which you can do whatever you wish, but it's best to just leave it at it's default for now. (Maybe disable the 3DNow! extension if your CPU doesn't support it?)
+
+After that, click generate.
+
+3. Build
+
+After CMake created the folder where the build files are, run the .sln with Visual Studio and build it like you'd do any other project. Wait for a while, and eventually you should have a ready-to-use FITD install.
+
+4. Place the .EXE alongside the game
+
+You MUST place the EXE with the game files. If you do not, you will be hit with a plethora of errors.
 
 # The Original Readme
 
