@@ -5,8 +5,8 @@
 	path = ThirdParty/imgui
 	url = https://github.com/ocornut/imgui
 [submodule "soloud"]
-	path = ThirdParty/soloud.cmake/soloud
-	url = https://github.com/jarikomppa/soloud.git
+	path = ThirdParty/soloud
+	url = https://github.com/Anuken/soloud
 [submodule "bgfx.cmake"]
 	path = ThirdParty/bgfx.cmake
 	url = https://github.com/bkaradzic/bgfx.cmake.git
